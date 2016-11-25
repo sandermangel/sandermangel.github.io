@@ -1,0 +1,96 @@
+
+body, html {  padding: 0; margin: 0; font-size: 12px; color: #000; font-family: Arial, sans-serif; }
+
+html {
+	background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+');
+	background-position: top left;
+	background-repeat: repeat;
+	background-color: transparent;
+}
+
+/*
+* Page classes
+*/
+div.wrapper { width: 400px; margin: 50px auto 0 auto; }
+
+/*
+* Side menu
+*/
+menu { width: auto; float: left; position: fixed; top: 100px; left: 0px; padding: 0; margin: 0; }
+menu ul { width: 100%; padding: 0; list-style: none; float: left; }
+menu ul li { width: 100%; float: left; padding: 0; margin-bottom: 10px; clear: both; }
+menu ul li a { width: auto; white-space: nowrap; float: left; padding: 10px; background-color: #FFF; clear: both; border-right: #FFF solid 5px; text-decoration: none; font-weight: bold; color: #000; }
+menu ul li a:active, menu ul li a:hover { padding-left: 25px; }
+
+/*
+* Timeline style
+*/
+div.tl_list { width: 100%; float: left; margin: 0; }
+div.tl_list div.tl_item_wrapper { width: 400px; float: left; margin: 0; margin-bottom: 15px; }
+div.tl_list div.tl_item_artwork { width: 400px; height: 200px; float: left; margin: 0; overflow: hidden; text-align: center; }
+div.tl_list div.tl_item { width: 375px; float: left; margin: 0; padding: 5px; padding-left: 19px; background: #FFF; border-left: #FFF 1px solid; }
+div.tl_list div.tl_item.transparent { background: transparent; border-color: transparent; }
+
+div.tl_list div.tl_item.subject_personal, menu ul li.subject_personal a { border-color: #FF4848; }
+div.tl_list div.tl_item.subject_portfolio, menu ul li.subject_portfolio a { border-color: #1FCB4A; }
+div.tl_list div.tl_item.subject_contact, menu ul li.subject_contact a { border-color: #5757FF; }
+/* div.tl_list div.tl_item.subject_portfolio, menu ul li.subject_personal { border-color: #800080; } */
+
+div.tl_list div.tl_item div.tl_item_title { width: 100%; float: left; margin: 0 0 10px 0; font-weight: bold; font-family: 'Quicksand', Arial, sans-serif; font-size: 25px; }
+div.tl_list div.tl_item div.tl_item_content { width: 100%; float: left; margin: 0; line-height: 2; }
+div.tl_list div.tl_item .tl_item_artwork { float: right; margin: 0 0 10px 10px; }
+
+div.tl_list div.tl_sepp { width: 100%; height: 100px; float: left; margin: 0; margin-bottom: 15px; background: url('data:image/jpg;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4QBGRXhpZgAATU0AKgAAAAgABAESAAMAAAABAAEAAFEAAAQAAAABAAAAAFEBAAMAAAABAAEAAFEEAAEAAAAB/AAAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9DKKKKAP/2Q==') repeat-y center top transparent; }
+div.tl_list div.tl_sepp.small { height: 40px; }
+div.tl_list div.tl_sepp .tl_sepp_label { width: 50px; white-space: nowrap; margin: 37px auto 0 auto; padding: 4px; text-align: center; background: #FFF; border: #CCC solid 1px; font-weight: bold; color: #000; text-decoration: none; cursor: default; display: block; }
+
+
+/*
+* Main profile
+*/ 
+.main_profile img.main_profile_image { border: #FFF solid 8px; border-radius: 50%; margin: 0 auto; display: block; }
+
+/*
+* Portfolio
+*/ 
+a.portfolio_item { width: 146px; float: left; margin: 18px; text-align: center; text-decoration: none; }
+a.portfolio_item img.portfolio_item_thumb { border: #CECECE solid 8px; border-radius: 50%; margin: 0 15px 10px 15px; float: left; }
+a.portfolio_item span.portfolio_item_label { width: 100%; font-weight: bold; float: left; color: #000; }
+
+/*
+* Contact form
+*/
+form.contact_form { width: 100%; float: left; margin: 0; }
+form.contact_form fieldset { width: 100%; float: left; margin: 0; padding: 0; border: none; }
+form.contact_form .contact_form_row { width: 100%; float: left; margin: 0 0 10px 0; }
+form.contact_form label { width: 30%; float: left; margin: 0 10% 0 0; }
+form.contact_form input, form.contact_form textarea { width: 57%; float: left; margin: 0; padding: 1%; border: none; background: #FAFAFA; border-left: #BDBDBD solid 1px; border-top: #BDBDBD solid 1px; }
+form.contact_form input.btn { width: auto; padding: 5px 8px; white-space: nowrap; float: right; background-color: #2E2E2E; border-radius: 3px; color: #FFF; }
+
+ul.contact_form_errorbox { width: 100%; padding: 0 0 0 13px; float: left; margin: 10px 0; color: #FF0000; }
+ul.contact_form_successbox { width: 100%; padding: 0 0 0 13px; float: left; margin: 10px 0; color: #74DF00; }
+
+/*
+* Skype button layout
+*/
+#SkypeButton_Chat_sander1805_1 { width: 60px !important; float: left; margin-left: 10px; }
+#SkypeButton_Chat_sander1805_1_paraElement[style] { margin: 0 !important; padding: 0px !important; }
+#SkypeButton_Chat_sander1805_1_paraElement img[style] { margin: 0 !important; vertical-align: 0px !important; }
+
+.social-stackaccount { float: left; }
+
+/*
+* Skills table
+*/
+div#skills_table { width: 100%; float: left; margin: 0; }
+div#skills_table div.skills_item { width: 100%; float: left; margin: 0 0 10px 0; }
+div#skills_table div.skills_label { width: 90px; float: left; clear: left; margin: 0 10px 0 0; }
+div#skills_table div.skills_perc { width: 1px; height: 20px; float: left; clear: right; margin: 0; overflow: hidden; background-color: #819FF7; }
+
+/*
+* Links & colleagues
+*/
+#links_block p { line-height: 1; }
+#links_block a { text-decoration: none; color: #000; padding: 4px 0; width: 100%; float: left; clear: both; }
+#links_block a b { text-decoration: underline; float: left; width: auto; white-space: nowrap; }
+#links_block a span { display: none; float: right; width: auto; white-space: nowrap; letter-spacing: 1px; }
