@@ -14,15 +14,6 @@ html {
 div.wrapper { width: 400px; margin: 50px auto 0 auto; }
 
 /*
-* Side menu
-*/
-menu { width: auto; float: left; position: fixed; top: 100px; left: 0px; padding: 0; margin: 0; }
-menu ul { width: 100%; padding: 0; list-style: none; float: left; }
-menu ul li { width: 100%; float: left; padding: 0; margin-bottom: 10px; clear: both; }
-menu ul li a { width: auto; white-space: nowrap; float: left; padding: 10px; background-color: #FFF; clear: both; border-right: #FFF solid 5px; text-decoration: none; font-weight: bold; color: #000; }
-menu ul li a:active, menu ul li a:hover { padding-left: 25px; }
-
-/*
 * Timeline style
 */
 div.tl_list { width: 100%; float: left; margin: 0; }
@@ -31,9 +22,9 @@ div.tl_list div.tl_item_artwork { width: 400px; height: 200px; float: left; marg
 div.tl_list div.tl_item { width: 375px; float: left; margin: 0; padding: 5px; padding-left: 19px; background: #FFF; border-left: #FFF 1px solid; }
 div.tl_list div.tl_item.transparent { background: transparent; border-color: transparent; }
 
-div.tl_list div.tl_item.subject_personal, menu ul li.subject_personal a { border-color: #FF4848; }
-div.tl_list div.tl_item.subject_portfolio, menu ul li.subject_portfolio a { border-color: #1FCB4A; }
-div.tl_list div.tl_item.subject_contact, menu ul li.subject_contact a { border-color: #5757FF; }
+div.tl_list div.tl_item.subject_personal { border-color: #FF4848; }
+div.tl_list div.tl_item.subject_portfolio { border-color: #1FCB4A; }
+div.tl_list div.tl_item.subject_contact { border-color: #5757FF; }
 /* div.tl_list div.tl_item.subject_portfolio, menu ul li.subject_personal { border-color: #800080; } */
 
 div.tl_list div.tl_item div.tl_item_title { width: 100%; float: left; margin: 0 0 10px 0; font-weight: bold; font-family: 'Quicksand', Arial, sans-serif; font-size: 25px; }
@@ -53,9 +44,9 @@ div.tl_list div.tl_sepp .tl_sepp_label { width: 50px; white-space: nowrap; margi
 /*
 * Portfolio
 */ 
-a.portfolio_item { width: 146px; float: left; margin: 18px; text-align: center; text-decoration: none; }
-a.portfolio_item img.portfolio_item_thumb { border: #CECECE solid 8px; border-radius: 50%; margin: 0 15px 10px 15px; float: left; }
-a.portfolio_item span.portfolio_item_label { width: 100%; font-weight: bold; float: left; color: #000; }
+span.portfolio_item { width: 100%; float: left; margin-bottom: 10px; text-align: center; text-decoration: none; }
+span.portfolio_item .portfolio_item_thumb { margin: 0; margin-bottom: 5px; width: 100%; float: left; }
+span.portfolio_item .portfolio_item_label { width: 100%; font-weight: bold; float: left; color: #000; }
 
 /*
 * Contact form
@@ -86,11 +77,3 @@ div#skills_table { width: 100%; float: left; margin: 0; }
 div#skills_table div.skills_item { width: 100%; float: left; margin: 0 0 10px 0; }
 div#skills_table div.skills_label { width: 90px; float: left; clear: left; margin: 0 10px 0 0; }
 div#skills_table div.skills_perc { width: 1px; height: 20px; float: left; clear: right; margin: 0; overflow: hidden; background-color: #819FF7; }
-
-/*
-* Links & colleagues
-*/
-#links_block p { line-height: 1; }
-#links_block a { text-decoration: none; color: #000; padding: 4px 0; width: 100%; float: left; clear: both; }
-#links_block a b { text-decoration: underline; float: left; width: auto; white-space: nowrap; }
-#links_block a span { display: none; float: right; width: auto; white-space: nowrap; letter-spacing: 1px; }
