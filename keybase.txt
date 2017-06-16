@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/sandermangel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sandermangel.nl
+  * I am sandermangel (https://keybase.io/sandermangel) on keybase.
+  * I have a public key with fingerprint 4862 4611 E7F7 7585 0740  15D9 8680 011E 9A87 C05A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a74d78ef67ce173c4097aa217dbd160e9bbc60419fd8c76ef68a46e171fcdb710a",
+            "fingerprint": "48624611e7f77585074015d98680011e9a87c05a",
+            "host": "keybase.io",
+            "key_id": "8680011e9a87c05a",
+            "kid": "0101a74d78ef67ce173c4097aa217dbd160e9bbc60419fd8c76ef68a46e171fcdb710a",
+            "uid": "2e314361d0bcff3c097f9a42a5355c19",
+            "username": "sandermangel"
+        },
+        "service": {
+            "hostname": "sandermangel.nl",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1497600135,
+    "expire_in": 157680000,
+    "prev": "4f4fc561b4fccd0b6c4b3cdc5ebd151d0d0f8af30216d30f5f43563652a8afde",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.72
+Comment: https://keybase.io/crypto
+
+yMIhAnicrZJbSFRBGMfXvERb3gJhzUo4pIV4mdlz3S0JsyDMSw+CWNZ2zsyc9aCe
+s5096yUvUWCWJBs+9BAoPVRUZje7LGF0ISQJH4oSUgipLEQDw/LFaJsj9eZjT8N8
+8/v+8/3/My8SYx3OmNKBpW8DkWYY8+pZX8hRXXyuq5VRDNzCeFuZOrK8kHpMgpav
+TsOMlwEQQFnksCgRVRARgSKLOOARZdkNRaxgKADiURQkAA56VCwhUaCgJHMCRaGK
+sCJCIDO5jKrpfmIGTE23qCwnCW5OgJCIqijyEg9EDkAeeyRBAoCWPbIkIsDbjbVG
+0O6gwylykORrBq3RjW95vBX4/zx3aFnOTVjIsQLEQEGqyiKqpHpkzi3zLM8j6LHB
+IDF1uYFQOijrmJgNMnVcz7TnMvSkUUPEDtd2swKVr9dTiYBpWAYy6ulhrWUFvHav
+1RKw4Sai+P7K+BRNxzRN2tBIzKBm6IwXUhJZmq0LOY8o0FBYPpchzQHNJD7NJnjR
+zgoA+xrSaL+ByqmIF6BCF0SNCYhTWIQRT2g8PLWKgSrJKgvcUMAsUHmVY3mBFXi3
+TMuYMLaxo7rBeOlNluy3LWl+XbZCJmHanz+tiXPEOB0J8avsX+Zwrkn59/cyNq+O
+dtw2K0bm2d7BhpQfBdWjvxezGx5mJfpjHyTvOpTaFZ2oqnDtO36juCwwnl7pKgyd
++HQpNOpeKuH1oeKzBTfLC8+DhcmTePpi934Ued/R75rJ2drzwdmKdoY7e4YvlMK2
+6aSZd7N5H/vWvsmpCR+Y0o3KW0v3H3dtOBNNvr4xUvXzyctH1ZWuY1rS3SN5KDy2
+BzoT1fW9aa/rtO5IeWokvezqYvTrnNi/e8LZOTqxKax339nSNCfE/2pb5xzelpm0
+sLe8JJrgZ7rf+ie/Zy90fW65t31+cvZLNPNKTRY3eJA5PWykhYeulUcOF00tZhWd
+0jLiRsYuZ4+bqek7Ouf/AHGgQqI=
+=gKun
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sandermangel
+
+==================================================================
+
